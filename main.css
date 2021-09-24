@@ -1,0 +1,108 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1rem/1.3 "Roboto", sans-serif;
+  background: #2C9EB0;
+  color: #fff;
+  padding: 50px;
+}
+
+h1.heading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+input[type="text"], button {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+input[type="text"] {
+  margin: 0 20px 10px 0;
+  border-bottom: 2px solid #000;
+}
+
+input[type="text"]::placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+
+button {
+  background-color: #F73959;
+  padding: 5px 10px;
+}
+
+form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#errorMsg {
+  margin-top: 20px;
+  color: #ff0000;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-style: italic;
+  color: green;
+}
+
+span {
+  display: inline-block;
+  width: 100%;
+}
+
+p {
+  margin: 5px 0;
+}
+
+ul li {
+  margin: 20px 0;
+  list-style: none;
+  padding: 20px 30px;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+  ul li {
+    margin: 20px 30px;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  ul li {
+    margin: 20px;
+    width: 22%;
+  }
+
+  h2:after, h3:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .left {
+    width: 50%;
+    float: left;
+  }
+
+  .right {
+    width: 30%;
+    float: right;
+  }
+}
