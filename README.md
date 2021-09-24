@@ -11,4 +11,4 @@ JS code includes :
   2. Snippet for fore cast is added dynamically in the results section.
   3. Fore Cast is fetched from external weather api by **Visual Crossing**.
   4. For successful fetch response we get results. If city name is wrong then error message is displayed.
-  5. Error messages are shown to user if validation for city name fails or city name is wrong.
+  5. Error messages are shown to user if validation for city name fails or city name is wrong.# Simple-Weather-App
